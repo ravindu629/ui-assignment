@@ -1,0 +1,134 @@
+.container {
+  margin: 50px;
+}
+
+/* Grid Layouts */
+.section-one,
+.section-two,
+.section-three {
+  width: 327px;
+  display: grid;
+}
+
+.section-one {
+  height: 132px;
+  grid-template-columns: 4fr 4fr 3fr 1fr 2fr;
+}
+
+.section-two {
+  height: 88px;
+  grid-template-columns: 3fr 1fr 1fr 2fr;
+}
+
+.section-three {
+  height: 88px;
+  grid-template-columns: 1fr 2fr 2fr 1fr 1fr;
+}
+
+[class*="col"],
+[class*="end"] {
+  border-top: 1px solid white;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  border-left: 0px solid transparent;
+}
+
+.section-one-col1 {
+  background-color: #548ed7;
+
+  border-left: 1px solid white;
+}
+
+.section-one-col2 {
+  background-color: #06b050;
+}
+
+.section-one-col3 {
+  background-color: #ffff01;
+  border-right: 0px solid #ffff01;
+}
+
+.section-one-col4 {
+  background-color: #ffffff;
+}
+
+.section-one-col5 {
+  background-color: #c0504e;
+}
+
+.section-two-col1 {
+  background-color: #c0504e;
+  border-top: 0px solid transparent;
+  border-right: 1px solid #c0504e;
+  border-left: 1px solid white;
+}
+
+.section-two-col2 {
+  background-color: #ffff01;
+  border-top: 0px solid transparent;
+}
+
+.section-two-col3 {
+  background-color: #06b050;
+  border-top: 0px solid transparent;
+}
+
+.section-two-flex {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+}
+
+.section-two-end1 {
+  background-color: #ffffff;
+  height: 43px;
+  border-top: 0px solid transparent;
+}
+
+.section-two-end2 {
+  background-color: #548ed7;
+  height: 43px;
+  border-top: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+}
+
+.section-three-col1 {
+  background-color: #548ed7;
+  border-top: 0px solid transparent;
+
+  border-left: 1px solid white;
+}
+
+.section-three-col2 {
+  background-color: #06b050;
+  border-top: 0px solid transparent;
+}
+
+.section-three-col3 {
+  background-color: #ffffff;
+  border-top: 0px solid transparent;
+}
+
+.section-three-col4 {
+  background-color: #c0504e;
+  border-top: 0px solid transparent;
+}
+
+.section-three-flex {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid black;
+}
+
+.section-three-end1 {
+  background-color: #ffffff;
+  height: 43px;
+  border-top: 0px solid transparent;
+}
+
+.section-three-end2 {
+  background-color: #06b050;
+  height: 43px;
+  border-top: 0px solid transparent;
+  border-bottom: 0px solid transparent;
+}
